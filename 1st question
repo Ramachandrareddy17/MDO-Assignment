@@ -1,0 +1,5 @@
+1) To create an API that lists the title and description based on the category passed as an input  parameter, you could use the following steps: 
+Use the requests library in Python to send a GET request to the endpoint  
+https://api.publicapis.org/entries 
+Use the json() method to parse the response and extract the relevant data 
+Use the filter() function to filter the entries based on the category passed as an input parameter Return the title and description of the filtered entries
