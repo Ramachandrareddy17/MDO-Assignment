@@ -7,8 +7,3 @@ Incorrectly formatted formulas (e.g. missing operators or parentheses)
 Reference to non-existent cells in formulas 
 Incorrectly formatted CSV file (e.g. missing or extra commas) 
 Issues with reading or writing the CSV file (e.g. file not found or permission denied)
-3) A user could break the code by: 
-Providing a CSV file with a format that is not expected or supported 
-Providing formulas that reference cells that are not present in the file 
-Providing formulas that contain malicious code (e.g. code that deletes files or sends data to external  servers) 
-Providing a CSV file with a very large number of formulas or cells, causing the program to run out of  memory or take a long time to execute.
